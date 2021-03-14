@@ -1,0 +1,328 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* start */
+
+body {
+  margin: 0 auto;
+  width: 925px;
+  padding: 0px 0 0;
+  text-align: center;
+  background: #faf7f7;
+  color: #515151;
+  font-family: Verdana,Arial,Helvetica,'meirio','メイリオ','Hiragino Marud Gothic Pro','ヒラギノ丸ゴ Pro W4',Osaka,'ＭＳ Ｐゴシック',sans-serif;
+  font: 13px/1.231 arial,helvetica,clean,sans-serif;
+  border-top: 7px solid rgb(108,198,196);
+}
+li {
+  list-style: none; 
+}
+a {
+  text-decoration: none;
+ 
+}
+
+header {
+  display: flex;
+  height: 120px;
+  width: 100%;
+ 
+}
+
+.header-left {
+  padding: 50px 0 20px 0;
+}
+
+.header-right {
+  margin: 10px 0 15px auto;
+}
+
+.header-right p {
+  font-size: 10px;
+  padding: 3px 0;
+}
+
+.header-right .fas {
+  width: 20px;
+  height: 20px;
+  padding: 0 10px 0 0 ;
+}
+.header-right h1 {
+  font-size: 25.6px;
+  font-weight: normal;
+  margin-top: 10px;
+  padding: 5px 0;
+}
+.header-right h2 {
+  font-size: 10px;
+  font-weight: normal;
+  padding: 11px 0;
+  border: 1px solid gainsboro;
+  border-radius: 5  px;
+}
+
+.header-right span {
+  color: rgb(201, 21, 21);
+}
+.header-menu {
+ 
+  display: flex;
+  margin: 15px 0;
+}
+
+.header-item {
+  padding: 20px 0 ;
+  width: 20%;
+  border: 2px solid rgb(108,198,196) ;
+   background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+}
+.header-item:hover {
+  opacity: 0.5;
+  background-image: linear-gradient(rgb(108,198,196) 0%,rgb(156,227,225) 100%);
+}
+
+
+.header-item span  {
+  color: #ffffff;
+  display: block;
+}
+
+.container {
+  display: flex;
+}
+
+nav {
+  width: 350px;
+  text-align: left;
+}
+
+.side-title {
+  padding: 12px;
+  font-size: 16px;
+  color: #ffffff;
+  background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);;
+}
+
+.side {
+ border: 1px solid rgb(108,198,196);
+ border-radius: 10px;
+ padding-bottom: 15px;
+ margin-bottom: 20px;
+ background: white;
+}
+
+.side ul {
+  margin: 0 10px;
+}
+
+.side li {
+  display: flex;
+  border-bottom: 1px solid rgb(108,198,196);
+}
+
+.side li::before {
+  content:"●";
+  font-size: 20px;
+  color: rgb(108,198,196);
+  padding-top: 4px;
+}
+
+.side a{
+  font-size: 14px;
+  color:#595959;
+  display:block;
+  width: 100%;
+  padding: 12px 0;
+ 
+}
+
+.side a:hover {
+  color: rgb(108,198,196);
+}
+
+main {
+  margin-left: 20px;
+}
+main img {
+  width: 100%;
+}
+
+.main-textarea {
+  padding: 15px 15px 40px;
+  background-color: white;
+}
+ 
+.main-textarea h2 {
+   font-size: 16px;
+   color: #515151;
+   text-align: left;
+   padding: 10px 0 ;
+   margin-bottom: 10px;
+   border-bottom: 3px solid rgb(108,198,196);
+}
+.main-text-item{
+  display: flex;
+  text-align: left;
+  font-size: 13px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.main-text-left {
+  margin: 10px 20px 10px 0;
+  width: 150px;
+  font-weight: bold;
+  font-size: 15px;
+  
+}
+
+.main-text-right {
+  padding: 10px 0;
+  width: 430px;
+}
+
+.bottom-menu {
+  margin-top: 20px;
+}
+
+.bottom-menu ul{
+  display: flex;
+  padding-left: 20px;
+  background: rgb(108,198,196);
+}
+
+.bottom-menu li {
+ display: flex;
+}
+
+.bottom-menu li:before {
+  content: "◎";
+  font-size: 20px;
+  color: white;
+  padding-top: 5px;
+  
+}
+
+.bottom-menu a{
+  margin: 10px 10px;
+  display: block;
+  color: white;
+}
+
+.bottom-menu a:hover {
+  text-decoration: underline;
+}
+
+.bottom-menu p {
+  text-align: right;
+  padding: 15px 0;
+  border-bottom: 2px solid rgb(108,198,196);
+}
+
+.bottom-menu span {
+  font-weight: bold;
+}
+
+footer  p{
+  padding: 15px 0;
+  font-size: 12px;
+}
